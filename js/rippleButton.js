@@ -54,7 +54,12 @@ for (var i = 0; i < button.length; i++) {
 			rippleEffect.remove();
 			//window.location.href = currentBtn.href;
 		},700);
-		
-		window.scrollTo(500, 0)
-	})
+
+		// Scroll to specific values
+		window.scroll({
+			top: document.querySelector(".main").scrollHeight, 
+			left: 0, 
+			behavior: 'smooth' 
+			});
+		})
 }
