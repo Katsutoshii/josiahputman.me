@@ -1,11 +1,14 @@
 doctype html
 html(lang="en")
   head
-    title= pageTitle
+    meta(charset="utf-8")
+    title Title
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="css/main.css")
     script(type='text/javascript').
       if (foo) bar(1 + 5)
   body
-    h1 Pug - node template engine
+    h1 Test
     #container.col
       if youAreUsingJade
         p You are amazing

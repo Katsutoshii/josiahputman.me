@@ -13,7 +13,9 @@ gulp.task('sass', function() {
 
 gulp.task('pug', function buildHTML() {
     gulp.src('*.pug')
-        .pipe(pug())
+        .pipe(pug({
+            pretty: true
+        }))
         .pipe(gulp.dest(function(f) {
             return f.base;
         }))
