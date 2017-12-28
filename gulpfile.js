@@ -11,13 +11,15 @@ gulp.task('sass', function() {
         }))
 });
 
-gulp.task('default', ['sass'], function() {
-    gulp.watch('*.scss', ['sass']);
+gulp.task('pug', function buildHTML() {
+    gulp.src('*.pug')
+        .pipe(pug())
+        .pipe(gulp.dest(function(f) {
+            return f.base;
+        }))
 });
 
-gulp.task('views', function buildHTML() {
-    return gulp.src('views/*.pug')
-    .pipe(pug({
-      // Your options in here. 
-    }))
-  });
+gulp.task('default', ['sass', 'pug'], function() {
+    gulp.watch('*.scss', ['sass', 'pug']);
+});
+
