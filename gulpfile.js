@@ -20,6 +20,7 @@ gulp.task('pug', function buildHTML() {
 });
 
 gulp.task('default', ['sass', 'pug'], function() {
-    gulp.watch('*.scss', ['sass', 'pug']);
+    gulp.watch('*.scss', ['sass']);
+    gulp.watch('*.pug', ['pug']);
 });
 
