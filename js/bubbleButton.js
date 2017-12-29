@@ -47,7 +47,7 @@ $('.button--bubble').each(function() {
     $(this).on('click', function() {
         // Scroll to specific values
 		window.scroll({
-			top: document.querySelector(".main").scrollHeight, 
+			top: document.querySelector(".introduction").scrollHeight, 
 			left: 0, 
 			behavior: 'smooth' 
 			});
