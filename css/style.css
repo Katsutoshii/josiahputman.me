@@ -82,19 +82,6 @@ html, body {
 }
 
 
-.main {
-  color: rgb(170, 170, 170);
-  background: rgb(0, 0, 0);
-  padding-top: 16px;
-  padding-left: 20%;
-  padding-right: 20%;
-  height: 2000px;
-}
-* {
--webkit-box-sizing: border-box;
-      box-sizing: border-box;
-}
-
 #nav {
   background-color: #222;
 }
@@ -112,6 +99,7 @@ html, body {
 }
 #nav ul li {
   display: inline-block;
+  padding: 15px;
 }
 #nav ul li:hover {
   background-color: #333;
@@ -119,7 +107,6 @@ html, body {
 #nav ul li a, visited {
   color: #CCC;
   display: block;
-  padding: 15px;
   text-decoration: none;
 }
 #nav ul li:hover ul {
@@ -131,13 +118,26 @@ html, body {
   background-color: #333;
   border: 5px solid #222;
   border-top: 0;
-  margin-left: -5px;
+  margin-left: -20px;
 }
 #nav ul ul li {
   display: block;
 }
 #nav ul ul li a:hover {
   color: #699;
+}
+
+
+.main {
+  color: rgb(170, 170, 170);
+  background: rgb(0, 0, 0);
+  padding-top: 16px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+* {
+-webkit-box-sizing: border-box;
+      box-sizing: border-box;
 }
 
 .bubbleButton {
