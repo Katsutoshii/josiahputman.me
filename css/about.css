@@ -8,52 +8,6 @@ html, body {
     font-size: 17px;
   }
 
-#nav {
-    background-color: #222;
-  }
-  #nav_wrapper {
-    width: 960px;
-    margin: 0 auto;
-    text-align: left;
-  }
-  #nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    min-width: 200px;
-  }
-  #nav ul li {
-    display: inline-block;
-    padding: 15px;
-  }
-  #nav ul li:hover {
-    background-color: #333;
-  }
-  #nav ul li a, visited {
-    color: #CCC;
-    display: block;
-    text-decoration: none;
-  }
-  #nav ul li:hover ul {
-    display: block;
-  }
-  #nav ul ul {
-    display: none;
-    position: absolute;
-    background-color: #333;
-    border: 5px solid #222;
-    border-top: 0;
-    margin-left: -20px;
-  }
-  #nav ul ul li {
-    display: block;
-  }
-  #nav ul ul li a:hover {
-    color: #699;
-  }
-
-
 .main {
     color: rgb(170, 170, 170);
     background: rgb(0, 0, 0);
@@ -65,4 +19,25 @@ html, body {
 -webkit-box-sizing: border-box;
         box-sizing: border-box;
 }
-  
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 20px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+width: 25%;
+}
+
+.right {
+width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
