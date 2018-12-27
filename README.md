@@ -1,3 +1,3 @@
-# Josiah Putman's Personal Website
+# Personal website
 
 This is my personal website.
