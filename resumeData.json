@@ -9,10 +9,10 @@
     "email": "joshikatsu@gmail.com",
     "phone": "603-892-3104",
     "address":{
-      "street":"226 Bear Hill Rd",
-      "city":"Chichester",
+      "street":"33 North Main St",
+      "city":"Hanover",
       "state":"NH",
-      "zip": "03258"
+      "zip": "03755"
     },
     "website": "http://www.josiahputman.me",
     "resumedownload":"https://docs.google.com/document/d/1raskvhH6GUikREupcn3zDcL0gaJm3DbwYPQPZGoPw8I/export?format=pdf",
@@ -34,12 +34,12 @@
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/josiah-putman-77b25a127/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com",
+        "url":"https://www.instagram.com/kaatsutoshi/",
         "className":"fa fa-instagram"
       },
       {
