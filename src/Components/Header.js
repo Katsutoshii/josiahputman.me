@@ -1,22 +1,10 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 
-var particleSettings = {
-    particles: {
-        line_linked: {
-            shadow: {
-                enable: true,
-                color: "#3CA9D1",
-                blur: 5
-            }
-        }
-    }
-}
+import particleSettings from '../Config/ParticleSettings.json';
+import particleStyle from '../Config/ParticleStyle.json'
 
-var particleStyle = {
-    width: '100%',
-    backgroundImage: `url(${logo})`
-}
+var logo = "../images/header-background.jpg"
 
 class Header extends Component {
     render() {
@@ -48,12 +36,16 @@ class Header extends Component {
                     </ul>
 
                 </nav>
-
-                <div className="row banner">
+                
+                <div className="background">
                     <Particles
                         params={particleSettings}
-                        style={particleStyle}
+                        // style={particleStyle}
                     />
+                </div>
+
+                <div className="row banner">
+
                     <div className="banner-text">
                         <h1 className="responsive-headline">I'm {name}.</h1>
                         <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
@@ -62,6 +54,7 @@ class Header extends Component {
                             {networks}
                         </ul>
                     </div>
+
                 </div>
 
                 <p className="scrolldown">
