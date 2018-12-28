@@ -15,21 +15,21 @@
       "zip": "03258"
     },
     "website": "http://www.josiahputman.me",
-    "resumedownload":"",
+    "resumedownload":"https://docs.google.com/document/d/1raskvhH6GUikREupcn3zDcL0gaJm3DbwYPQPZGoPw8I/export?format=pdf",
     "social":[
       {
         "name":"facebook",
-        "url":"http://facebook.com/",
+        "url":"https://www.facebook.com/Josiah.Katsutoshi",
         "className":"fa fa-facebook"
       },
       {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"https://twitter.com/joshikatsu",
         "className":"fa fa-twitter"
       },
       {
         "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
+        "url":"https://plus.google.com/102519121262420543276",
         "className":"fa fa-google-plus"
       },
       {
@@ -44,13 +44,8 @@
       },
       {
         "name":"github",
-        "url":"http://github.com/",
+        "url":"http://github.com/katsutoshii",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
@@ -79,7 +74,7 @@
       },
       {
         "company":"Dartmouth Robotics Lab",
-        "title":"Senior UX God ",
+        "title":"Undergraduate Researcher",
         "years":"December 2017 - Present",
         "description":""
       }
