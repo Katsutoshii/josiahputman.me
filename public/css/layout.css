@@ -52,7 +52,8 @@ header .background {
    left: 0;
    top: 0;
    width: 100%;
-   height: 100%;
+   height: 100vmax !important;
+   z-index: 0;
 }
 header .banner {
    display: inline-block;
