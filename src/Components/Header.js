@@ -36,7 +36,7 @@ class Header extends Component {
                     </ul>
 
                 </nav>
-                
+
 
                 <div className="row banner">
 
