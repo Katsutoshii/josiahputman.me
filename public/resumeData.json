@@ -28,11 +28,6 @@
         "className":"fa fa-twitter"
       },
       {
-        "name":"google-plus",
-        "url":"https://plus.google.com/102519121262420543276",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/josiah-putman-77b25a127/",
         "className":"fa fa-linkedin"
@@ -56,7 +51,7 @@
         "school":"Dartmouth College",
         "degree":"Bachelors in Computer Science and Japanese Language",
         "graduated":"June 2020",
-        "description":""
+        "description":"Focus on ML, AI, robotics, and translation."
       }
     ],
     "work":[
@@ -64,19 +59,19 @@
         "company":"Microsoft",
         "title":"Software Engineering Intern",
         "years":"June 2019 - August 2019",
-        "description":""
+        "description": "Software engineer on the Microsoft Graph WebHooks team. Implemented WebSocket Server for WebHook notifications in C#"
       },
       {
         "company":"Uptime Solutions",
         "title":"Machine Learning Engineering Intern",
         "years":"September 2018 - Present",
-        "description":""
+        "description":"Engineering ML models and data processing frameworks for bearing-fault detection using Python, C#, JavaScript; Co-led development of Python API used for SQL data retrieval/analysis"
       },
       {
         "company":"Dartmouth Robotics Lab",
         "title":"Undergraduate Researcher",
         "years":"December 2017 - Present",
-        "description":""
+        "description":"Researching  Robotics and AI solutions to robot motion planning using various models and search using Python, C/C++; Project lead for integration with Open Motion Planning Library"
       }
     ],
     "skills":[
@@ -121,22 +116,40 @@
   "portfolio":{
     "projects": [
       {
-        "title":"LitList",
-        "category":"Native Android Application integrating Spotify's streaming services with Google Maps for localized playlists.",
-        "image":"",
-        "url":""
+        "title":"Laundry Folding AI",
+        "category":"Robotics research project",
+        "image":"laundryfolding.jpg",
+        "url":"http://www.cs.dartmouth.edu/~trdata/reports/TR2018-852.pdf"
       },
       {
         "title":"Hamono 刃物",
         "category":"Unity mobile action video game",
-        "image":"fury-fighting-gear.jpg",
-        "url":""
+        "image":"hamono.jpg",
+        "url":"http://hamono.surge.sh/"
       },
       {
         "title":"Resume Website",
-        "category":"A React based resume website.",
-        "image":"",
-        "url":""
+        "category":"A React based resume website",
+        "image":"website.jpg",
+        "url":"http://josiahputman.me"
+      },
+      {
+        "title":"LLDM",
+        "category":"AI Project for Locally-Linear Distance Maps",
+        "image":"lldm.jpg",
+        "url":"https://gitlab.com/dartmouthrobotics/2018-gb-metric-approximation"
+      },
+      {
+        "title":"JPCFG",
+        "category":"Japanese Language grammar parsing using Probabilistic Context-Free Grammars",
+        "image":"jpcfg.jpg",
+        "url":"https://github.com/Katsutoshii/JPCFG"
+      },
+      {
+        "title":"MotionPlanning.jl",
+        "category":"Open-source motion planning library in Julia",
+        "image":"mpl.png",
+        "url":"https://gitlab.com/dartmouthrobotics/MotionPlanning.jl"
       }
     ]
   },
